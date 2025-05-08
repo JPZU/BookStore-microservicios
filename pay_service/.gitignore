@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+
+# Variables de entorno
+.env
+.env.*
+
+# Archivos de log y debug
+*.log
+
+# Archivos SQL (backups o dumps locales)
+*.sql
+*.sql.gz
+
+# Bases de datos locales (si usas SQLite)
+*.sqlite3
+instance/
+
+# Archivos del editor o sistema operativo
+.DS_Store
+*.swp
+*.swo
+*.bak
+
+# Docker
+*.pid
+*.tar
+*.gz
+docker-compose.override.yml
+
+# Pytest
+.pytest_cache/
+.coverage
+
+# VS Code
+.vscode/
+
+# Archivos de distribución
+*.egg-info/
+build/
+dist/
