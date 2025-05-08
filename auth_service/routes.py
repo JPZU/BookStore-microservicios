@@ -14,7 +14,8 @@ def register():
     if User.query.filter_by(email=data["email"]).first():
         return jsonify({"msg": "Email already exists"}), 400
     # En /register
-    hashed_pw = generate_password_hash(data["password"])  # Usa werkzeug
+    hashed_pw = generate_password_hash(
+        data["password"], method='pbkdf2:sha256')
     new_user = User(name=data["name"], email=data["email"], password=hashed_pw)
     db.session.add(new_user)
     db.session.commit()
