@@ -49,3 +49,10 @@ BookStore es una aplicación web que permite a los usuarios publicar, comprar y 
 
 ## 📁 Estructura del Proyecto
 
+BookStore/
+├── monolith/
+├── auth-service/
+├── catalog-service/
+├── order-service/
+├── k8s/
+└── README.md
