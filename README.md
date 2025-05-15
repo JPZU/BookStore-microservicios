@@ -25,6 +25,9 @@ BookStore es una aplicación web que permite a los usuarios publicar, comprar y 
 - Base de datos RDS MySQL
 - Sistema de archivos compartido (EFS)
 
+- ![image](https://github.com/user-attachments/assets/792e169b-9f6c-403e-8098-df8b6459aacf)
+
+
 ### Objetivo 3 - Migración a Microservicios
 - Microservicio 1: Autenticación
 - Microservicio 2: Catálogo
